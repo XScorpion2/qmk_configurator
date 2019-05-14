@@ -310,12 +310,13 @@ function getExclusionList() {
     'qwertyydox',
     'redox',
     'sentraq/s60_x',
-    'sol',
+    'rgbkb/sol',
     'treadstone48',
     'vitamins_included',
     'yosino58',
-    'zen',
-    'zinc'
+    'rgbkb/zen',
+    'zinc',
+    'rgbkb/zygomorph'
   ].reduce((acc, k) => {
     acc[k] = true;
     return acc;
